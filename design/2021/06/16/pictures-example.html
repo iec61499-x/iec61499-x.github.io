@@ -15,24 +15,26 @@
     property="og:title"
     content="
         
-            welcome to the simplex demo
+            Photos and pictures
         
     " 
 />
 
-<meta property="og:url" content="http://localhost:4000//404.html" />
+    <meta property="og:description" content="Various picture examples." />
+
+<meta property="og:url" content="http://localhost:4000//design/2021/06/16/pictures-example.html" />
 
     <meta property="og:type" content="article" />
 
 
 
-    <meta property="fb:app_id" content="" />
+    <meta property="fb:app_id" content="example" />
 
 
 
 <title>
     
-        welcome to the simplex demo
+        Photos and pictures
     
 </title>
 </head>
@@ -154,26 +156,95 @@
     </nav>
 </header>
 
-    <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+    <article class="post">
 
-<div class="container">
-  <h1>404</h1>
+    <div class="post__title">
+        <h1 class="post__title__text">Photos and pictures</h1>
+    </div>
+    <div class="post__meta"> 
+        <div class="post__meta__category">
+            
+                <p class="post__meta__category__title" style="background: var(--c-themeHueOrange)">Design</p>
+            
+        </div>
+        <p class="post__meta__divider">·</p>
+        <div class="post__meta__date">
+            June 16, 2021
+        </div>
+        
+            
+            <p class="post__meta__divider">·</p>
+            <div class="post__meta__author">
+                <p>by </p>
+                <img class="post__meta__author__photo" src="http://localhost:4000/assets/img/authors/jekyll.png"/>
+                <p>Dr. Jekyll</p>
+            </div>
+        
+    </div>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    
+        <div class="post__navigator">
+            <div
+                class="post__navigator__buttons"
+                
+            >
+                
+                    <a href="/programming/cpp/2021/06/16/syntax-example.html">
+                        <img  class="arrow-left" src="http://localhost:4000/assets/img/icons/arrow_left.svg"/>
+                        Previous
+                    </a>
+                
+                
+            </div>
+        </div>
+    
+
+    <div class="post__content">
+        <p>The simplex supports not only embedding pictures but also includes a lightbox plugin. Read the post and check out various examples.</p>
+
+<h2 id="dogs">Dogs</h2>
+
+<p>Try to click on the following picture:</p>
+
+<p><a href="/assets/img/posts/doggo1.jpg" data-lity="">
+  <img src="/assets/img/posts/doggo1_thumb.jpg" />
+</a></p>
+
+<p>You see? A big doggo appeared.</p>
+
+<hr />
+
+<p>Images can be centered:</p>
+
+<p><a href="/assets/img/posts/doggo2.jpg" data-lity="" class="sx-center">
+  <img src="/assets/img/posts/doggo2_thumb.jpg" />
+</a></p>
+
+<hr />
+
+<p>You don’t have to use the lightbox feature. In that case, simply use markdown image tag:</p>
+
+<p><img src="/assets/img/posts/doggo1_thumb.jpg" alt="A picure without lightbox" /></p>
+
+<hr />
+
+<p>There also can be a simple description under the picture:</p>
+
+<div class="sx-center">
+    <div class="sx-picture">
+    <a href="/assets/img/posts/doggo2.jpg" data-lity="">
+        <img src="/assets/img/posts/doggo2_thumb.jpg" />
+    </a>
+    <span class="sx-subtitle">My picture description.</span>
+    </div>
 </div>
+
+<h2 id="attributions">Attributions</h2>
+<p>The first dog picture by <a href="https://unsplash.com/photos/U3aF7hgUSrk">Pauline Loroy</a>.
+The second dog picture by: <a href="https://unsplash.com/photos/2l0CWTpcChI">Marliese Streefland</a>.</p>
+
+    </div>
+</article>
 
     
     <footer class="footer">

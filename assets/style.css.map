@@ -3,15 +3,15 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_variables.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_mixins.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_global.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_header.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_footer.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_feed.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_index.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_post.scss",
-		"C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-theme-simplex-0.9.8.15/_sass/_page.scss"
+		"_sass/_variables.scss",
+		"_sass/_mixins.scss",
+		"_sass/_global.scss",
+		"_sass/_header.scss",
+		"_sass/_footer.scss",
+		"_sass/_feed.scss",
+		"_sass/_index.scss",
+		"_sass/_post.scss",
+		"_sass/_page.scss"
 	],
 	"sourcesContent": [
 		"// =============================\n// main.scss\n// =============================\n// Used to include all the partials.\n\n// Do not change the order of the imports behind this comment.\n\n// GLOBAL VARIABLES\n@import \"_variables.scss\";\n\n// LIQUID CALCULATIONS\n\n    $s-menuWidth: calc(3 * (#{$s-menuItemWidth} + #{$s-menuItemPadding} * 2));\n\n    $s-menuWidth: calc(3 * (#{$s-menuItemWidth} + #{$s-menuItemPadding} * 2));\n\n    $s-menuWidth: calc(3 * (#{$s-menuItemWidth} + #{$s-menuItemPadding} * 2));\n\n\n// OTHER IMPORTS\n@import \"_mixins.scss\";\n@import \"_global.scss\";\n\n// Do not change the order of the imports above this comment.\n\n@import \"_header.scss\";\n@import \"_footer.scss\";\n@import \"_feed.scss\";\n@import \"_index.scss\";\n@import \"_post.scss\";\n@import \"_page.scss\";\n\n",
